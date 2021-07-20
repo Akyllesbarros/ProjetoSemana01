@@ -1,0 +1,113 @@
+*{
+    font-family: Roboto, sans-serif;
+}
+
+/* ================================================ */
+/* ============== Tela Principal ================== */
+/* ================================================ */
+
+body{
+    margin: 0;
+    background-color: #E7F1F7;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.card{
+    background-color: #96CBDD;
+    width: 25%;
+    height: 80vh;
+    border-radius: 40px;
+}
+
+.xpnumerico h2{
+    font-size: 25px;
+}
+
+.xpnumerico{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+    margin-bottom: -20px;
+    color: #33434A;
+}
+
+.xpnumerico h3{
+    font-size: 15px ;
+    align-self: flex-end;
+    padding-bottom: 5px;
+}
+
+.xpbarra{
+    height: 7px;
+    margin: 0 40px;
+    background-color: #74B2CA;
+    display: flex;
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+  
+.xpbarra2{
+    width: 75%;
+    background-color: #DCEDF3;
+    border-radius: 40px;
+}
+
+.imagempet{
+    height: 50vh;
+    width: 20vw;
+    margin: 0 40px;
+    object-fit: contain;
+}
+
+.botoes{
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.botaotrocahumor{
+    margin: 0 40px;
+    height: 35px;
+    background-color: #41768D;
+    color: #DCEDF5;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.botaotrocahumor:hover {
+    background-color: #5293af;
+    box-shadow: 0px 15px 20px #708090 ;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.botaoacao{
+    margin: 0 40px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.botao01, .botao02, .botao03{
+   width: 35px;
+   height: 35px;
+   padding: 20px 5px;
+}
+
+.botaoselecionado{
+    height: 7px;
+    width: 30%;
+    margin:0 120px;
+    background-color: #5a7886;
+    display: flex;
+    border-radius: 40px;
+    justify-content: center ;
+}
+    
+   
